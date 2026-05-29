@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" font-family="'Segoe UI', Arial, sans-serif">
+  <!-- Background -->
+  <rect width="900" height="620" fill="#0f1117"/>
+
+  <!-- Title -->
+  <text x="450" y="48" text-anchor="middle" fill="#ffffff" font-size="22" font-weight="700" letter-spacing="1">SPEC-DRIVEN DEVELOPMENT</text>
+  <text x="450" y="70" text-anchor="middle" fill="#6b7280" font-size="13">Flujo con fases bloqueadas — no se avanza sin aprobación humana</text>
+
+  <!-- ─── PHASE 1: SPECIFY ─── -->
+  <rect x="30" y="100" width="185" height="330" rx="12" fill="#1e2130" stroke="#6366f1" stroke-width="2"/>
+  <rect x="30" y="100" width="185" height="44" rx="12" fill="#6366f1"/>
+  <rect x="30" y="132" width="185" height="12" rx="0" fill="#6366f1"/>
+  <text x="122" y="127" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">FASE 1</text>
+  <text x="122" y="160" text-anchor="middle" fill="#a5b4fc" font-size="12" font-weight="700">SPECIFY</text>
+
+  <text x="50" y="185" fill="#9ca3af" font-size="11">• Lista supuestos primero</text>
+  <text x="50" y="203" fill="#9ca3af" font-size="11">• Objetivo y usuarios</text>
+  <text x="50" y="221" fill="#9ca3af" font-size="11">• Comandos del proyecto</text>
+  <text x="50" y="239" fill="#9ca3af" font-size="11">• Estructura de carpetas</text>
+  <text x="50" y="257" fill="#9ca3af" font-size="11">• Estilo de código</text>
+  <text x="50" y="275" fill="#9ca3af" font-size="11">• Estrategia de testing</text>
+  <text x="50" y="293" fill="#9ca3af" font-size="11">• Boundaries</text>
+
+  <!-- Spec file badge -->
+  <rect x="48" y="313" width="149" height="28" rx="6" fill="#312e81"/>
+  <text x="122" y="331" text-anchor="middle" fill="#a5b4fc" font-size="11" font-weight="600">Guarda → SPEC.md</text>
+
+  <!-- 6 areas badge -->
+  <rect x="48" y="350" width="149" height="28" rx="6" fill="#1f2937"/>
+  <text x="122" y="368" text-anchor="middle" fill="#6b7280" font-size="10">6 áreas obligatorias</text>
+
+  <!-- ─── GATE 1 ─── -->
+  <line x1="215" y1="265" x2="248" y2="265" stroke="#6366f1" stroke-width="2" stroke-dasharray="4,3"/>
+  <circle cx="265" cy="265" r="18" fill="#0f1117" stroke="#f59e0b" stroke-width="2"/>
+  <text x="265" y="261" text-anchor="middle" fill="#f59e0b" font-size="9" font-weight="700">TU</text>
+  <text x="265" y="273" text-anchor="middle" fill="#f59e0b" font-size="9" font-weight="700">OK?</text>
+  <line x1="283" y1="265" x2="316" y2="265" stroke="#6366f1" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <!-- ─── PHASE 2: PLAN ─── -->
+  <rect x="318" y="100" width="185" height="330" rx="12" fill="#1e2130" stroke="#8b5cf6" stroke-width="2"/>
+  <rect x="318" y="100" width="185" height="44" rx="12" fill="#8b5cf6"/>
+  <rect x="318" y="132" width="185" height="12" rx="0" fill="#8b5cf6"/>
+  <text x="410" y="127" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">FASE 2</text>
+  <text x="410" y="160" text-anchor="middle" fill="#ddd6fe" font-size="12" font-weight="700">PLAN</text>
+
+  <text x="338" y="185" fill="#9ca3af" font-size="11">• Identificar componentes</text>
+  <text x="338" y="203" fill="#9ca3af" font-size="11">• Dependencias entre módulos</text>
+  <text x="338" y="221" fill="#9ca3af" font-size="11">• Orden de implementación</text>
+  <text x="338" y="239" fill="#9ca3af" font-size="11">• Riesgos y mitigaciones</text>
+  <text x="338" y="257" fill="#9ca3af" font-size="11">• Paralelo vs. secuencial</text>
+  <text x="338" y="275" fill="#9ca3af" font-size="11">• Checkpoints de verificación</text>
+
+  <rect x="336" y="313" width="149" height="28" rx="6" fill="#1f2937"/>
+  <text x="410" y="331" text-anchor="middle" fill="#6b7280" font-size="10">Legible para el humano</text>
+
+  <!-- ─── GATE 2 ─── -->
+  <line x1="503" y1="265" x2="536" y2="265" stroke="#8b5cf6" stroke-width="2" stroke-dasharray="4,3"/>
+  <circle cx="553" cy="265" r="18" fill="#0f1117" stroke="#f59e0b" stroke-width="2"/>
+  <text x="553" y="261" text-anchor="middle" fill="#f59e0b" font-size="9" font-weight="700">TU</text>
+  <text x="553" y="273" text-anchor="middle" fill="#f59e0b" font-size="9" font-weight="700">OK?</text>
+  <line x1="571" y1="265" x2="604" y2="265" stroke="#8b5cf6" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <!-- ─── PHASE 3: TASKS ─── -->
+  <rect x="606" y="100" width="185" height="330" rx="12" fill="#1e2130" stroke="#06b6d4" stroke-width="2"/>
+  <rect x="606" y="100" width="185" height="44" rx="12" fill="#06b6d4"/>
+  <rect x="606" y="132" width="185" height="12" rx="0" fill="#06b6d4"/>
+  <text x="698" y="127" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">FASE 3</text>
+  <text x="698" y="160" text-anchor="middle" fill="#cffafe" font-size="12" font-weight="700">TASKS</text>
+
+  <text x="626" y="185" fill="#9ca3af" font-size="11">• Una sesión por tarea</text>
+  <text x="626" y="203" fill="#9ca3af" font-size="11">• Criterios de aceptación</text>
+  <text x="626" y="221" fill="#9ca3af" font-size="11">• Paso de verificación</text>
+  <text x="626" y="239" fill="#9ca3af" font-size="11">• Orden por dependencia</text>
+  <text x="626" y="257" fill="#9ca3af" font-size="11">• Máx. ~5 archivos por tarea</text>
+
+  <!-- Task template badge -->
+  <rect x="624" y="283" width="149" height="50" rx="6" fill="#0c1a1f" stroke="#06b6d4" stroke-width="1"/>
+  <text x="698" y="299" text-anchor="middle" fill="#67e8f9" font-size="9" font-weight="600">- [ ] Task: descripción</text>
+  <text x="698" y="313" text-anchor="middle" fill="#6b7280" font-size="9">  Acceptance / Verify / Files</text>
+
+  <!-- ─── GATE 3 (bottom) ─── -->
+  <line x1="698" y1="430" x2="698" y2="455" stroke="#06b6d4" stroke-width="2" stroke-dasharray="4,3"/>
+  <circle cx="698" cy="473" r="18" fill="#0f1117" stroke="#f59e0b" stroke-width="2"/>
+  <text x="698" y="469" text-anchor="middle" fill="#f59e0b" font-size="9" font-weight="700">TU</text>
+  <text x="698" y="481" text-anchor="middle" fill="#f59e0b" font-size="9" font-weight="700">OK?</text>
+  <line x1="698" y1="491" x2="698" y2="510" stroke="#06b6d4" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <!-- ─── PHASE 4: IMPLEMENT (bottom) ─── -->
+  <rect x="556" y="512" width="284" height="80" rx="12" fill="#1e2130" stroke="#10b981" stroke-width="2"/>
+  <rect x="556" y="512" width="284" height="36" rx="12" fill="#10b981"/>
+  <rect x="556" y="536" width="284" height="12" fill="#10b981"/>
+  <text x="698" y="535" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="700">FASE 4 — IMPLEMENT</text>
+  <text x="698" y="572" text-anchor="middle" fill="#9ca3af" font-size="11">incremental-implementation + TDD  •  tarea por tarea</text>
+
+  <!-- ─── LIVING SPEC banner ─── -->
+  <rect x="30" y="460" width="490" height="132" rx="12" fill="#1a1f2e" stroke="#374151" stroke-width="1"/>
+  <text x="275" y="484" text-anchor="middle" fill="#f9fafb" font-size="13" font-weight="700">SPEC ES UN DOCUMENTO VIVO</text>
+  <line x1="50" y1="492" x2="500" y2="492" stroke="#374151" stroke-width="1"/>
+
+  <circle cx="55" cy="512" r="4" fill="#6366f1"/>
+  <text x="68" y="516" fill="#9ca3af" font-size="11">Actualiza cuando cambian decisiones o scope</text>
+
+  <circle cx="55" cy="533" r="4" fill="#8b5cf6"/>
+  <text x="68" y="537" fill="#9ca3af" font-size="11">Guarda el spec en control de versiones</text>
+
+  <circle cx="55" cy="554" r="4" fill="#06b6d4"/>
+  <text x="68" y="558" fill="#9ca3af" font-size="11">Referencia el spec en cada PR</text>
+
+  <circle cx="55" cy="575" r="4" fill="#10b981"/>
+  <text x="68" y="579" fill="#9ca3af" font-size="11">Si cambia el modelo de datos → actualiza spec primero</text>
+
+  <!-- ─── When NOT to use ─── -->
+  <rect x="30" y="438" width="490" height="20" rx="6" fill="#1f2937"/>
+  <text x="275" y="452" text-anchor="middle" fill="#ef4444" font-size="10" font-weight="600">NO USAR EN: fixes de 1 línea · typos · cambios autocontenidos y obvios</text>
+
+  <!-- Footer -->
+  <text x="450" y="608" text-anchor="middle" fill="#374151" font-size="10">jcespedess/agent-skills  •  skills/spec-driven-development/SKILL.md</text>
+</svg>
